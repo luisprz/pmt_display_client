@@ -1,7 +1,5 @@
 # pmt_display_client
 
-A new Flutter project.
-
 
 
 Qué es el proyecto

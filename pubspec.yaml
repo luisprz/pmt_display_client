@@ -1,0 +1,17 @@
+name: pmt_display_client
+description: ProMultiTech FireTV Digital Signage Client
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  cached_network_image: ^3.3.1
+  wakelock_plus: ^1.2.5
+
+flutter:
+  assets:
+    - assets/fallback.jpeg

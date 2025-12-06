@@ -289,3 +289,40 @@ Revisa que GitHub Pages publique (esperar 10–30s)
  Branding completo ProMultiTech
 
  Modo kiosk completo en Firestick (auto-launch)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+///////////////////// Volver a compilar e instalar //////////////
+
+En la carpeta del proyecto:
+
+cd "C:\Users\maste\Documents\PMT\Software\pmt_display_client"
+flutter build apk --release
+
+
+Luego, en platform-tools:
+
+cd "C:\Users\maste\AppData\Local\Android\Sdk\platform-tools"
+.\adb connect 192.168.137.70:5555
+.\adb install -r "C:\Users\maste\Documents\PMT\Software\pmt_display_client\build\app\outputs\flutter-apk\app-release.apk"
+
+
+Abre la app en el Firestick.

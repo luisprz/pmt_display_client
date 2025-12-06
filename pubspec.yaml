@@ -13,5 +13,6 @@ dependencies:
   wakelock_plus: ^1.2.5
 
 flutter:
+  uses-material-design: true
   assets:
     - assets/fallback.jpeg

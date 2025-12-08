@@ -303,7 +303,11 @@ Revisa que GitHub Pages publique (esperar 10–30s)
 
 
 
+///////////////////////// ETAPA 0 ////////////////////////////
+App que permite leer imagenes de github / todavia sin app para celular ni panel admin
 
+Este proyecto es un cliente Flutter diseñado para mostrar imágenes de forma remota en pantallas (Fire TV Stick / Android TV Box / Android TV).  
+La aplicación descarga un archivo JSON desde GitHub Pages, interpreta qué imagen debe mostrar y la presenta en pantalla completa 24/7.
 
 
 
@@ -326,3 +330,15 @@ cd "C:\Users\maste\AppData\Local\Android\Sdk\platform-tools"
 
 
 Abre la app en el Firestick.
+
+
+
+
+
+//////////////////////////// Subir A Github //////////////////////////////////////
+cd "C:\Users\maste\Documents\PMT\Software\pmt_display_client"
+git pull origin main
+
+git add .
+git commit -m "mensaje"
+git push origin main
